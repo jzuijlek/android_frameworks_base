@@ -1570,7 +1570,7 @@ public class NetworkController extends BroadcastReceiver implements DemoMode {
                         .replace(("."), ("_")).replace(("&"), ("_"))
                         .replace(("-"), ("")).replace(("*"), (""))
                         .replace(("@"), (""));
-        if (string2.length() > 4) string2 = string2.substring(0, string2.length()-1);
+        if (string2.length() > 4) string2 = string2.substring(0, 4);
         return string2.toLowerCase();
     }
 
